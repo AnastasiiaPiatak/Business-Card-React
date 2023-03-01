@@ -13,6 +13,8 @@
   font-family: "Inter", sans-serif;
 }
 
+/* Main section */
+
 .card {
   width: 317px;
   height: 780px;
@@ -56,6 +58,8 @@
   margin-bottom: 15px;
   font-family: "Inter", sans-serif;
 }
+
+/* Buttons */
 
 .card__btns {
   display: flex;
@@ -155,4 +159,27 @@
 .linkedin__btn:hover a {
   color: #374151;
   transition: 500ms;
+}
+
+/* About section */
+
+.about {
+  margin-left: 36px;
+  margin-top: 33px;
+}
+
+.about h2 {
+  color: #c46270;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.about p {
+  width: 247px;
+  height: 75px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #dcdcdc;
 }
