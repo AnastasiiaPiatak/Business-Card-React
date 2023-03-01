@@ -54,6 +54,7 @@
   display: block;
   margin-top: 8px;
   margin-bottom: 15px;
+  font-family: "Inter", sans-serif;
 }
 
 .card__btns {
@@ -83,6 +84,17 @@
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
+.email__btn span {
+  color: #374151;
+  margin-right: 8px;
+  transition: 500ms;
+}
+
+.email__btn:hover span {
+  color: #ffffff;
+  transition: 500ms;
+}
+
 .email__btn a {
   font-weight: 500;
   font-size: 14px;
@@ -91,6 +103,7 @@
   text-decoration: none;
   margin: 0;
   transition: 500ms;
+  font-family: "Inter", sans-serif;
 }
 
 .email__btn:hover a {
@@ -117,6 +130,17 @@
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
+.linkedin__btn span {
+  color: #ffffff;
+  margin-right: 8px;
+  transition: 500ms;
+}
+
+.linkedin__btn:hover span {
+  color: #374151;
+  transition: 500ms;
+}
+
 .linkedin__btn a {
   font-weight: 500;
   font-size: 14px;
@@ -125,6 +149,7 @@
   text-decoration: none;
   margin: 0;
   transition: 500ms;
+  font-family: "Inter", sans-serif;
 }
 
 .linkedin__btn:hover a {

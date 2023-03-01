@@ -7,12 +7,16 @@ export default function MainInfo(){
           Anastasiia's website
         </a>
         <div className="card__btns">
-          <button type="button"  className="card__btns email__btn">
-            <span></span>
+          <button type="button" className="card__btns email__btn">
+            <span>
+              <i className="fa-solid fa-envelope"></i>
+            </span>
             <a href="mailto:iamsherlocked031199@gmail.com">Email</a>
           </button>
           <button type="button" className="card__btns linkedin__btn">
-            <span></span>
+            <span>
+              <i className="fa-brands fa-linkedin"></i>
+            </span>
             <a href="www.linkedin.com/in/anastasiia-piatak-022609266">
               LinkedIn
             </a>
