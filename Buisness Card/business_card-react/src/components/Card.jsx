@@ -14,10 +14,11 @@ export default function Card() {
         />
         <MainInfo/>
         <About />
+        <Interests />
+        <SocialLinks />
        </div>
        
-      <Interests />
-      <SocialLinks />
+      
     </>
   );
 }
