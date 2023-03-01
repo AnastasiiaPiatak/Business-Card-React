@@ -57,6 +57,13 @@
   margin-top: 8px;
   margin-bottom: 15px;
   font-family: "Inter", sans-serif;
+  transition: 500ms;
+
+}
+
+.card a:hover{
+  color: #5093e2;
+  transition: 500ms;
 }
 
 /* Buttons */

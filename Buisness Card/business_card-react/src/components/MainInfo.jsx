@@ -2,9 +2,9 @@ export default function MainInfo(){
     return (
       <>
         <h1>Anastasiia Piatak</h1>
-        <h3>Front-End developer</h3>
+        <h3>Front-End Developer</h3>
         <a href="https://anastasiiapiatak-portfolio.netlify.app">
-          Anastasiia's website
+          Personal Website
         </a>
         <div className="card__btns">
           <button type="button" className="card__btns email__btn">
