@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+#root{
+  background-color: #c5c5c5;
+}
+
 .App {
   width: 550px;
   height: 868px;
@@ -26,6 +30,7 @@
 .card__img {
   width: 317px;
   height: 357px;
+  object-fit: cover;
   border-radius: 10px 10px 0px 0px;
 }
 

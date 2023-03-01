@@ -17,7 +17,10 @@ export default function MainInfo(){
             <span>
               <i className="fa-brands fa-linkedin"></i>
             </span>
-            <a href="www.linkedin.com/in/anastasiia-piatak-022609266">
+            <a
+              href="https://www.linkedin.com/in/anastasiia-piatak-022609266/"
+              target="_blank"
+            >
               LinkedIn
             </a>
           </button>
