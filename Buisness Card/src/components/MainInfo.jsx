@@ -11,7 +11,9 @@ export default function MainInfo(){
             <span>
               <i className="fa-solid fa-envelope"></i>
             </span>
-            <a href="mailto:iamsherlocked031199@gmail.com">Email</a>
+            <a href="mailto:iamsherlocked031199@gmail.com" target="_blank">
+              Email
+            </a>
           </button>
           <button type="button" className="card__btns linkedin__btn">
             <span>
