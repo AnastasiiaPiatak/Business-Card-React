@@ -186,22 +186,64 @@
 
 /* Interests section */
 
-.interests{
+.interests {
   margin-top: 13px;
   margin-left: 36px;
   margin-right: 34px;
 }
 
-.interests h2{
+.interests h2 {
   color: #c46270;
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
 }
 
-.interests p{
+.interests p {
   font-weight: 400;
   font-size: 10.24px;
   line-height: 150%;
   color: #dcdcdc;
+}
+
+/* Social Links section */
+
+.socialLinks {
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialLinks span{
+  padding-top: 10px;
+  padding-right: 24px; 
+}
+
+.socialLinks span:last-child {
+  padding-right: 0;
+}
+
+.socialLinks a{
+  transition: 500ms;
+}
+
+.socialLinks a:hover{
+  transition: 500ms;
+  transform: scale(0.95);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.socialLinks a:hover i{
+  color: #c46270;
+}
+
+.socialLinks i{
+  color: #918E9B;
+  font-size: 30px;
 }
