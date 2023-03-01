@@ -13,9 +13,9 @@ export default function Card() {
           className="card__img"
         />
         <MainInfo/>
+        <About />
        </div>
-      <MainInfo />
-      <About />
+       
       <Interests />
       <SocialLinks />
     </>
